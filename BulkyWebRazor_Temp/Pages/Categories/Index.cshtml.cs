@@ -8,7 +8,7 @@ namespace BulkyWebRazor_Temp.Pages.Categorise
     public class IndexModel : PageModel
     {
         private readonly ApplicationDbContext _db;
-        public List<Category> CategoryList { get; set; }
+        public  List<Category> CategoryList { get; set; }
         public IndexModel(ApplicationDbContext db)
         {
             _db = db;
